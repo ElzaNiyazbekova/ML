@@ -12,15 +12,15 @@ API_URL = os.getenv("API_URL", "http://localhost:8000")
 SPECIES = {
     "Adelie": {
         "description": "Small penguins with short bills, found around Antarctica.",
-        "image_url": "/Users/elzaniyazbekova/Desktop/MLLM/SIS3/photos/Screenshot 2026-11-26 at 21.17.59.png",
+        "image_url": "photos/adelie.png",
     },
     "Chinstrap": {
         "description": "Recognizable by the thin black band under the head.",
-        "image_url": "/Users/elzaniyazbekova/Desktop/MLLM/SIS3/photos/Screenshot 2026-11-26 at 21.18.49.png",
+        "image_url": "photos/chinstrap.png",
     },
     "Gentoo": {
         "description": "The largest of these three, with long flippers and an orange bill.",
-        "image_url": "/Users/elzaniyazbekova/Desktop/MLLM/SIS3/photos/Screenshot 2026-11-26 at 21.19.29.png",
+        "image_url": "photos/gentoo.png",
     },
 }
 
