@@ -1,0 +1,37 @@
+artifact_path: /Users/elzaniyazbekova/Desktop/MLLM/6practice/mlruns/3/models/m-5b788725d4a5478ca5b7be59ace08607/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.18.0
+model_id: m-5b788725d4a5478ca5b7be59ace08607
+model_size_bytes: 12806
+model_uuid: m-5b788725d4a5478ca5b7be59ace08607
+prompts: null
+run_id: 5fcfe236255f4d7bbcd729702cd319ab
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "bill_length_mm", "required": true}, {"type":
+    "double", "name": "bill_depth_mm", "required": true}, {"type": "double", "name":
+    "flipper_length_mm", "required": true}, {"type": "double", "name": "body_mass_g",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-11-25 10:39:49.933813'

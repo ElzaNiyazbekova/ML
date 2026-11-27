@@ -1,0 +1,22 @@
+artifact_path: /Users/elzaniyazbekova/Desktop/MLLM/6practice/mlruns/3/models/m-ab08e8009b5447b1a887a81053b481cc/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.18.0
+model_id: m-ab08e8009b5447b1a887a81053b481cc
+model_size_bytes: 12024
+model_uuid: m-ab08e8009b5447b1a887a81053b481cc
+prompts: null
+utc_time_created: '2026-11-25 10:41:45.933141'
